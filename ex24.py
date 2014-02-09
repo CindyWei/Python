@@ -33,3 +33,16 @@ def print_first_and_last_sorted(sentence):
 	words = sort_sentence(sentence)
 	print_first_word(words)
 	print_last_word(words) 
+
+sentence = "All good things come to those who wait."
+
+words = break_words(sentence)
+sorted_words = sort_words(words)
+print words
+print sorted_words
+print_first_word(words)
+print_last_word(words)
+print_first_word(sorted_words)
+print_last_word(sorted_words)
+print_first_and_last_sorted(sentence)
+
